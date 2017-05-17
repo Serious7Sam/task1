@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit stopOnFailure="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+
+>
+    <testsuites>
+        <testsuite name="Unit Tests">
+            <directory suffix="Test.php">src/Tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Functional Tests">
+            <directory suffix="Test.php">src/Tests/Functional</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
